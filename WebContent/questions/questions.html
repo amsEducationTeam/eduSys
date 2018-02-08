@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Questions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+
+
+	<script src="../js/jsjquery-3.3.1.min.js"></script>
+	<script src="../popper.js-1.12.9/dist/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>
+			<img class="logo" src="../img/desert.jpg" alt="仮ロゴ">
+			<!-- <img class="user" src="../img/koala.jpg" alt="仮ユーザー"> -->
+			アカウント名
+		</h1>
+	</header>
+	<div class="container">
+		<form class="form-horizontal">
+			<div class="row">
+				<div class="form-group category col-sm-4">
+					<label for="exampleSelect1">カテゴリ</label>
+					<select class="form-control" id="exampleSelect1">
+						<option>情報の基礎理論</option>
+						<option>データ構造とアルゴリズム</option>
+						<option>ハードウェア</option>
+						<option>ソフトウェア</option>
+						<option>システムの構成と方式</option>
+						<option>システム開発技術と監査</option>
+						<option>ネットワーク技術</option>
+						<option>データベース技術</option>
+						<option>情報セキュリティ</option>
+						<option>情報化と経営</option>
+					</select>
+				</div>
+				<div class="form-group category col-sm-4">
+					<label for="exampleSelect1">出題年度</label>
+					<select class="form-control" id="exampleSelect1">
+						<option>平成23 春</option>
+						<option>平成23 秋</option>
+						<option>平成24 春</option>
+						<option>平成24 秋</option>
+						<option>平成25 春</option>
+						<option>平成25 秋</option>
+						<option>平成26 春</option>
+						<option>平成26 秋</option>
+						<option>平成27 春</option>
+						<option>平成27 秋</option>
+						<option>平成28 春</option>
+						<option>平成28 秋</option>
+						<option>平成29 春</option>
+						<option>平成29 秋</option>
+						<option>平成30 春</option>
+						<option>平成30 秋</option>
+
+					</select>
+				</div>
+				<div class="form-group category col-sm-4">
+					<label for="exampleSelect1">並べ替え</label>
+					<select class="form-control" id="exampleSelect1">
+						<option>カテゴリ昇順</option>
+						<option>カテゴリ降順</option>
+						<option>出題年度昇順</option>
+						<option>出題年度降順</option>
+					</select>
+				</div>
+			</div>
+
+			<nav aria-label="ページ送りの実例">
+				<ul class="pagination justify-content-center">
+					<li class="page-item"><a class="page-link" href="#">&lt;&lt;</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">4</a></li>
+					<li class="page-item"><a class="page-link" href="#">5</a></li>
+					<li class="page-item"><a class="page-link" href="#">&gt;&gt;</a></li>
+				</ul>
+			</nav>
+
+		</form>
+
+		<form action="../answers/answers.html">
+
+
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>NO.</th>
+						<th>設問</th>
+						<th>ア</th>
+						<th>イ</th>
+						<th>ウ</th>
+						<th>エ</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<th>1</th>
+								<td>英字の大文字(A～Z）と数字（0～9）を同一のビット数で一意にコード化するには、少なくとも何ビット必要か。</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA"> 5
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA"> 6
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA"> 7
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioName" value="radioA"> 8
+										</label>
+									</div>
+								</td>
+							</div>
+						</div>
+					</tr>
+
+
+					<tr>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<th>2</th>
+								<td>10進数の0.6875を２進数で表したものはどれか。</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioB" value="radioB"> 0.1001
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioB" value="radioB"> 0.1011
+										</label>
+									</div></td>
+									<td>
+										<div class="radio">
+											<label>
+												<input type="radio" name="radioB" value="radioB"> 0.1101
+											</label>
+										</div></td>
+										<td>
+											<div class="radio">
+												<label>
+													<input type="radio" name="radioB" value="radioB"> 0.1111
+												</label>
+											</div>
+										</td>
+									</div>
+								</div>
+
+
+
+
+							</tr>
+							<tr>
+								<th>3</th>
+								<td>16進小数3A.5Cを10進数の分数で表したものはどれか。</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioC" value="radioA"> 939/16
+										</label>
+									</div>
+								</td>
+								<td>
+									<div class="radio">
+										<label>
+											<input type="radio" name="radioC" value="radioA"> 3735/64
+										</label>
+									</div>
+								</td>
+								<td><div class="radio">
+									<label>
+										<input type="radio" name="radioC" value="radioA"> 14939/256
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioC" value="radioA"> 14941/256
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>4</th>
+							<td>次の10進小数のうち、2進数で表すと無限小数になるものはどれか。</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA"> 0.05
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA"> 0.125
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA"> 0.375
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioD" value="radioA"> 0.5
+									</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th>5</th>
+							<td>次の計算は何進法で成立するか。131-45=53</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA"> 6
+									</label>
+								</div></td>
+								<td><div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA"> 7
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA"> 8
+									</label>
+								</div>
+							</td>
+							<td>
+								<div class="radio">
+									<label>
+										<input type="radio" name="radioE" value="radioA"> 9
+									</label>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<button class="btn btn-info answer" type="submit">答え合わせ</button>
+			</form>
+		</div>
+	</body>
+	</html>
